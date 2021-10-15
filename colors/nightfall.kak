@@ -20,7 +20,7 @@ declare-option -hidden str cursor "80"
 declare-option -hidden str selection "60"
 
 # Theme Options
-define-command show-whitespaces %{
+define-command -docstring "show trailing whitespaces" nightfall-show-whitespaces %{
      add-highlighter global/trailing-whitespaces regex "(\h+)$" "1:default,rgba:%opt{red}%opt{selection}"
 }
 
