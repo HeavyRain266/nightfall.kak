@@ -27,7 +27,7 @@ define-command -docstring "show trailing whitespaces" nightfall-show-whitespaces
 # Syntax Faces
 face global comment "rgb:%opt{black}"
 face global documentation "rgb:%opt{black}"
-face global type "rgb:%opt{cyan}"
+face global type "rgb:%opt{yellow}"
 face global value "rgb:%opt{magenta}"
 face global variable "rgb:%opt{orange}"
 face global module "rgb:%opt{cyan}"
