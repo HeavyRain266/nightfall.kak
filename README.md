@@ -2,7 +2,7 @@
 
 ### Installation
 ```kak
-plug "nightfall-theme/nightfall.kak" config %{
+plug "HeavyRain266/nightfall.kak" config %{
 	colorscheme nightfall
 }
 ```
